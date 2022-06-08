@@ -2,6 +2,7 @@
   background-color: #288c25d4;
   width: 100%;
   height: 880px;
+  position: relative;
 }
 
 img {
