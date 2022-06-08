@@ -29,3 +29,5 @@ function movecar(dir) {
     $car.style.transform = 'rotate(90deg)';
   }
 }
+
+$body.addEventListener('keydown', start);
