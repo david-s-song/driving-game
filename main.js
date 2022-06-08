@@ -17,3 +17,15 @@ function start(e) {
       break;
   }
 }
+
+function movecar(dir) {
+  if (dir === 'right') {
+    $car.style.transform = 'rotate(0deg)';
+  } else if (dir === 'left') {
+    $car.style.transform = 'rotate(180deg)';
+  } else if (dir === 'up') {
+    $car.style.transform = 'rotate(-90deg)';
+  } else if (dir === 'down') {
+    $car.style.transform = 'rotate(90deg)';
+  }
+}
